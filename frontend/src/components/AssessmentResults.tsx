@@ -1,9 +1,7 @@
 import { useEffect, useState, useMemo, useCallback } from 'react'
 import axios from 'axios'
-import {
-  RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis,
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell,
-} from 'recharts'
+import { Bar, Bar, BarChart, CartesianGrid, PolarAngleAxis, PolarGrid, PolarRadiusAxis, Radar, RadarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -682,7 +680,7 @@ export default function AssessmentResults({ instanceId }: Props) {
   )
 }
 
-// ─── Fallback mock questions (if API doesn't return question_responses) ────────
+
 
 function generateMockQuestions(results: AssessmentResultsData): QuestionResponse[] {
   return [
