@@ -39,7 +39,7 @@ Create a wireframe showing:
 **Recommendations:**
 - Use charting library (Recharts, Chart.js, Victory)
 - Ensure responsive sizing
-- Use accessible colors
+- Use accessible colours
 - Add clear labels and legends
 
 **Deliverable:** Working components displaying question breakdown and at least one chart/visualization.
