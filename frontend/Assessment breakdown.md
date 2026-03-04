@@ -1,6 +1,6 @@
 Design & Visuals
 
-I stuck to a semantic color system—Green, Amber, Red—managed through a central COLORS constant. This keeps the UI predictable and makes it easy to tweak the thresholds later if needed.
+I stuck to a semantic colour system—Green, Amber, Red—managed through a central colour constant. This keeps the UI predictable and makes it easy to tweak the thresholds later if needed.
 
 For the data visualization, I went with two specific views:
 
